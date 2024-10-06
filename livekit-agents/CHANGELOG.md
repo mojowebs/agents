@@ -1,5 +1,15 @@
 # livekit-agents
 
+## 0.10.1
+
+### Patch Changes
+
+- use rtc.combine_audio_frames - [#841](https://github.com/livekit/agents/pull/841) ([@theomonnom](https://github.com/theomonnom))
+
+- Fix bug where empty audio would cause agent to get stuck. - [#836](https://github.com/livekit/agents/pull/836) ([@martin-purplefish](https://github.com/martin-purplefish))
+
+- AudioByteStream: avoid empty frames on flush - [#840](https://github.com/livekit/agents/pull/840) ([@theomonnom](https://github.com/theomonnom))
+
 ## 0.10.0
 
 ### Minor Changes
